@@ -2,7 +2,7 @@
 
 前端技术 VUE+elemntPlus+axios+router+echarts+web3j(调用合约)
 
-后端技术 Java,springboot+mybatisplus+springsecurity+redis
+后端技术 Java,springboot+mybatisplus+springsecurity+redis。注意修改yml配置文件，填写自己邮箱授权码和邮箱地址，修改数据库，redis配置
 
 合约测试 npm init -y 初始化一个项目 npx hardhat compile 编译 npx hardhat test test/MaterialManage.js 测试 npx hardhat run .\scripts\materialManage.js 部署
 

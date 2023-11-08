@@ -1,0 +1,38 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/materials_management
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail: # 邮箱验证
+    host: smtp.qq.com
+    username: 2334310165@qq.com
+    password: omuquvmjmahudieh # 邮箱授权码
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+  redis:
+    host: 192.168.8.246
+    port: 6379
+    password: 123456
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false # 关闭驼峰命名
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:/mapper/*.xml
+logging.level.org.springframework.web.cors: DEBUG
+#upload:
+#  path: D:\design\material_management\src\main\resources\static\images\
+

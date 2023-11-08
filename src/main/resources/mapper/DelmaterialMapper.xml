@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yjm.dao.DelmaterialMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.yjm.entity.Delmaterial">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="materialId" column="materialId" jdbcType="INTEGER"/>
+            <result property="userId" column="userId" jdbcType="INTEGER"/>
+            <result property="reason" column="reason" jdbcType="VARCHAR"/>
+            <result property="delTime" column="delTime" jdbcType="VARCHAR"/>
+            <result property="isDel" column="isDel" jdbcType="CHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,materialId,userId,reason,
+        delTime,isDel
+    </sql>
+</mapper>

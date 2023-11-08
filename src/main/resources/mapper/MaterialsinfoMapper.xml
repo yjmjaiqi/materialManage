@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yjm.dao.MaterialsinfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.yjm.entity.Materialsinfo">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="userId" column="userId" jdbcType="VARCHAR"/>
+            <result property="specifications" column="specifications" jdbcType="VARCHAR"/>
+            <result property="detail" column="detail" jdbcType="VARCHAR"/>
+            <result property="dateOfManufacture" column="dateOfManufacture" jdbcType="VARCHAR"/>
+            <result property="supplier" column="supplier" jdbcType="VARCHAR"/>
+            <result property="buyTime" column="buyTime" jdbcType="VARCHAR"/>
+            <result property="img" column="img" jdbcType="VARCHAR"/>
+            <result property="isState" column="isState" jdbcType="CHAR"/>
+            <result property="isOk" column="isOk" jdbcType="CHAR"/>
+            <result property="isDel" column="isDel" jdbcType="CHAR"/>
+            <result property="examine" column="examine" jdbcType="CHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,userId,
+        specifications,detail,dateOfManufacture,
+        supplier,buyTime,img,
+        isState,isOk,isDel,examine
+    </sql>
+</mapper>

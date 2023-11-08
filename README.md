@@ -10,6 +10,9 @@
 
 区块链技术 solidity、hardhat、本地私链，metamask钱包
 
+![image](https://github.com/yjmjaiqi/materialManage/assets/81315676/c4007748-cad9-4758-9719-9f51dbe6ace9)
+
+
 项目描述：
 
 1、利用区块链技术解决传统物资的信任、溯源问题，用区块链技术记录物资信息，防止信息篡改，可溯源，解决捐赠者与受助人间的信任问题

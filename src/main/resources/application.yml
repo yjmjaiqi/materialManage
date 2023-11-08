@@ -10,8 +10,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   mail: # 邮箱验证
     host: smtp.qq.com
-    username: 2334310165@qq.com
-    password: omuquvmjmahudieh # 邮箱授权码
+    username: # 邮箱
+    password:  # 邮箱授权码
     properties:
       mail:
         smtp:

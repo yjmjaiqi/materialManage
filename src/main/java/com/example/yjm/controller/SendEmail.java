@@ -21,8 +21,6 @@ public class SendEmail {
     @Autowired
     private JavaMailSender javaMailSender;
 
-    //1021751532@qq.com
-    //2334310165@qq.com
     public static Map<String, String> verificationCodes = new HashMap<>();
 
     //读取yml文件中username的值并赋值给form
